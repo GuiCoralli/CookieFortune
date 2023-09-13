@@ -12,7 +12,7 @@ body {
   /*background: linear-gradient(45deg, #bb00ff 0%, #31245d 100%);*/
   animation: gradient 10s ease infinite;
   background-size: 200% 200%;
-  margin-top: 15rem;
+  margin-top: 12rem;
   display: grid;
   place-items: center;
   overflow: hidden;
