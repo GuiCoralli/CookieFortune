@@ -20,7 +20,7 @@ body {
 }
 
 body:before {
-  content:url(./assets/image\ background2.3.jpg);    
+  content:url(./assets/image\ background2.jpg);    
     
     place-content: center;
     display: flex;
