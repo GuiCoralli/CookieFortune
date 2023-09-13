@@ -9,20 +9,20 @@
 }
 
 body {
-  background: linear-gradient(45deg, #bb00ff 0%, #31245d 100%);
+  /*background: linear-gradient(45deg, #bb00ff 0%, #31245d 100%);*/
   animation: gradient 10s ease infinite;
   background-size: 200% 200%;
-
+  margin-top: 15rem;
   display: grid;
   place-items: center;
-  width: 100vw;
-  height: 100vh;
+  overflow: hidden;
+
 }
 
 body:before {
-  content:url(./assets/image\ background2.jpg);    
-    width: 100vw;
-    height: 100vh;
+  content:url(./assets/image\ background2.3.jpg);    
+    
+    place-content: center;
     display: flex;
     position: absolute;
     top: 0;
@@ -103,6 +103,7 @@ h2 {
     transform: rotate(0deg);
   }
 }
+
 .hide {
   display: none;
 }
